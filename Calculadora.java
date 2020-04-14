@@ -17,15 +17,19 @@ public class Calculadora {
 		 a = teclado.nextInt();
 		 System.out.println("Ingrese el segundo numero");
 		 b = teclado.nextInt();
-if(opcion.equals(1)){
+switch (opcion) {
+case 1: 
 resultado = a + b;
-}else if(opcion.equals(2)){
+break;
+case 2:
 resultado = a - b;
-}else if(opcion.equals(3)){
+break;
+case 3 : 
 resultado = a * b;
-}else{
+break;
+default:
 resultado = a / b;
-}
+break;
 System.out.println("El resultado es " + resultado.toString());
 }
 }
