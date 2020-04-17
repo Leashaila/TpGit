@@ -23,10 +23,15 @@ public class Calculadora {
 	
 	
 	//Metodo para multiplicar:
-	
+		public Integer multiplicar(){
+			return this.resultado=a*b;
+		}
 	
 	
 	//Metodo para dividir:
+		public Integer dividir(){
+			return this.resultado=a/b;
+		}
 
 
 
