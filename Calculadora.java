@@ -2,6 +2,35 @@ import java.util.Scanner;
 
 public class Calculadora {
 
+	private Integer a;
+	private Integer b;
+	private Integer resultado;
+	
+	public MiCalculadora(Integer a, Integer b) {
+		this.a = a;
+		this.b = b;
+	}
+	//Metodo para sumar:
+		public Integer sumar(){
+			return this.resultado = a+b;
+		}
+	
+	
+	//Metodo para restar:
+		public Integer restar(){
+			return this.resultado=a-b;
+		}
+	
+	
+	//Metodo para multiplicar:
+	
+	
+	
+	//Metodo para dividir:
+
+
+
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
